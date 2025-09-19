@@ -1,0 +1,75 @@
+html {
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f0f4f8;
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #0d6efd; /* Azul Bootstrap */
+  letter-spacing: 1px;
+}
+
+.container {
+  background-color: #fff;
+}
+
+header {
+  margin-top: 3rem;
+}
+
+header h1 {
+  color: #0d6efd;
+}
+
+.lista-citas .cita {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.2s ease-in-out;
+}
+.lista-citas .cita:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.lista-citas .cita span {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+
+textarea {
+  height: 150px!important;
+}
+
+svg {
+  width: 21px;
+}
+svg:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
